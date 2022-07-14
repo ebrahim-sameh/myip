@@ -1,0 +1,84 @@
+{% extends 'iplookup/base.html' %}
+{%load static%}
+
+
+{% block content %}
+<div class="news_section layout_padding" xmlns="http://www.w3.org/1999/html">
+      <div class="container">
+         <h1 class="health_taital">What service do you need today?</h1>
+         <p class="health_text">choose the needed service</p>
+         <div class="news_section_2 layout_padding">
+            <div class="row">
+               <a href="{%url 'iplookup'%}"><div class="col-lg-4 col-sm-6 mb-5">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div> </a>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div>
+            </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div>
+         </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="box_main">
+                     <div class="icon_1"><img src="{% static 'images/icon-2.png' %} "></div>
+                     <h4 class="daily_text">IPAdress lookup</h4>
+                  </div>
+      </div>
+   </div>
+
+
+   <!-- client section start -->
+   <div class="client_section layout_padding">
+      <div id="my_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <h1 class="client_taital">What is Our Service</h1>
+                  <p class="client_text">MyIP.Live </p>
+                  <div class="client_section_2">
+                     <div class="client_left">
+                        <div><img src="{% static 'images/client-img.png' %} " class="client_img"></div>
+                     </div>
+                     <div class="client_right">
+                        <h3 class="distracted_text">What is my IP</h3>
+                        <p class="lorem_text">Soon after, we realized there might be other network administrators and computer users who might find our IP-lookup program helpful. Today, millions of IT professionals, computer users, and international travelers count on our website as a surefire way to get information about specific IP addresses.
+                        Soon after, we realized there might be other network administrators and computer users who might find our IP-lookup program helpful. Today, millions of IT professionals, computer users, and international travelers count on our website as a surefire way to get information about specific IP addresses.
+                           Soon after, we realized there might be other network administrators and computer users who might find our IP-lookup program helpful. Today, millions of IT professionals, computer users, and international travelers count on our website as a surefire way to get information about specific IP addresses.
+
+                        </p>
+                        <div class="quote_icon"><img src="{% static 'images/quote-icon.png' %} "></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+                  </div>
+               </div>
+            </div>
+
+                  </div>
+               </div>
+            </div>
+   </div>
+{% endblock %}
